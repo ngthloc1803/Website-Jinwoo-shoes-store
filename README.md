@@ -26,9 +26,9 @@ Cách chạy:
 
 Clone repo:
 
-  git clone https://github.com/yourusername/JIN-WOO-SHOES.git
+    git clone https://github.com/yourusername/JIN-WOO-SHOES.git
   
-  cd JIN-WOO-SHOES/JinwooApi
+    cd JIN-WOO-SHOES/JinwooApi
   
 Cấu hình database:
 
@@ -36,8 +36,7 @@ Cấu hình database:
         "ConnectionStrings": {
           "DefaultConnection": "Server=YOUR_SERVER;Database=JinwooDB;Trusted_Connection=True;MultipleActiveResultSets=true"
         }   
-        
-    Chạy lệnh tạo database:
+   Chạy lệnh tạo database:
         dotnet ef database update
 Chạy API:
 
@@ -49,18 +48,21 @@ Hoặc mở Visual Studio, chọn JinwooApi và nhấn Run.
 
 Yêu cầu:
 
-  Node.js (>= 16.x)
-  npm hoặc yarn
+    Node.js (>= 16.x)
+    npm hoặc yarn
   
 Cách chạy:
 
 Đi vào thư mục frontend
+
     cd ../jinwoo
     
 Cài đặt dependencies:
-    npm install
+
+      npm install
 
 Chạy ứng dụng:
+
     npm run serve
     
 Mặc định frontend sẽ chạy tại: http://localhost:8080
@@ -68,6 +70,7 @@ Mặc định frontend sẽ chạy tại: http://localhost:8080
 🔗 API & Kết nối Frontend - Backend
 📌 Cấu hình API trong Frontend
 Mở file .env hoặc src/config.js, cập nhật URL backend:
+
     export const API_BASE_URL = "http://localhost:5000/api";
 ⚠️ Lưu ý: Nếu backend chạy trên cổng khác, hãy cập nhật URL tương ứng.
 
