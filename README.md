@@ -1,14 +1,19 @@
 JIN WOO SHOES - Hệ Thống Quản Lý & Bán Hàng	
+
 📌 Giới thiệu
+
 Đây là hệ thống website dành cho cửa hàng Jin Woo Shoes, bao gồm:
-  JinwooApi (Backend - ASP.NET Core)
-  jinwoo (Frontend - Vue.js)
+
+    JinwooApi (Backend - ASP.NET Core)
+    jinwoo (Frontend - Vue.js)
+  
 📂 Cấu trúc thư mục
-JIN-WOO-SHOES/
-│── JinwooApi/      # Backend API (ASP.NET Core, SQL Server)
-│── jinwoo/         # Frontend (Vue.js)
-│── JinwooApi.sln   # File giải pháp cho .NET
-│── README.md       # Hướng dẫn sử dụng
+
+    JIN-WOO-SHOES/
+    │── JinwooApi/      # Backend API (ASP.NET Core, SQL Server)
+    │── jinwoo/         # Frontend (Vue.js)
+    │── JinwooApi.sln   # File giải pháp cho .NET
+    │── README.md       # Hướng dẫn sử dụng
 
 🚀 Hướng dẫn cài đặt & chạy dự án
 
