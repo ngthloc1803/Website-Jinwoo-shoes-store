@@ -21,11 +21,12 @@ JIN WOO SHOES - Hệ Thống Quản Lý & Bán Hàng
 
 Yêu cầu:
 
-  .NET 8.0 SDK
-  
-  SQL Server
-  
-  Visual Studio (hoặc Rider, VS Code với C# extension)
+
+      .NET 8.0 SDK
+      
+      SQL Server
+      
+      Visual Studio (hoặc Rider, VS Code với C# extension)
   
 Cách chạy:
 
@@ -42,6 +43,7 @@ Cấu hình database:
           "DefaultConnection": "Server=YOUR_SERVER;Database=JinwooDB;Trusted_Connection=True;MultipleActiveResultSets=true"
         }   
    Chạy lệnh tạo database:
+   
         dotnet ef database update
 Chạy API:
 
@@ -82,13 +84,9 @@ Mở file .env hoặc src/config.js, cập nhật URL backend:
 
 Các công nghệ sử dụng:
 
-  Backend: ASP.NET Core, Entity Framework Core, SQL Server
-  
-  Frontend: Vue.js, Vue Router, Axios
-  
-  Database: SQL Server
-  
-  Authentication: JWT (JSON Web Token)  
+      Backend: ASP.NET Core, Entity Framework Core, SQL Server
+      Frontend: Vue.js, Vue Router, Axios      
+      Database: SQL Server      
 
 Nếu gặp lỗi CORS khi gọi API, hãy bật CORS trong Program.cs (backend).
 
