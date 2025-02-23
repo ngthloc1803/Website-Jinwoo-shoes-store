@@ -11,31 +11,49 @@ JIN-WOO-SHOES/
 │── README.md       # Hướng dẫn sử dụng
 
 🚀 Hướng dẫn cài đặt & chạy dự án
+
 🏗️ 1. Cài đặt Backend (JinwooApi - ASP.NET Core)
+
 Yêu cầu:
+
   .NET 8.0 SDK
+  
   SQL Server
+  
   Visual Studio (hoặc Rider, VS Code với C# extension)
+  
 Cách chạy:
+
 Clone repo:
+
   git clone https://github.com/yourusername/JIN-WOO-SHOES.git
+  
   cd JIN-WOO-SHOES/JinwooApi
+  
 Cấu hình database:
+
     Mở file appsettings.json, cập nhật chuỗi kết nối:
         "ConnectionStrings": {
           "DefaultConnection": "Server=YOUR_SERVER;Database=JinwooDB;Trusted_Connection=True;MultipleActiveResultSets=true"
         }   
+        
     Chạy lệnh tạo database:
         dotnet ef database update
 Chạy API:
+
     dotnet run
+    
 Hoặc mở Visual Studio, chọn JinwooApi và nhấn Run.
 
 🎨 2. Cài đặt Frontend (jinwoo - Vue.js)
+
 Yêu cầu:
+
   Node.js (>= 16.x)
   npm hoặc yarn
+  
 Cách chạy:
+
 Đi vào thư mục frontend
     cd ../jinwoo
     
