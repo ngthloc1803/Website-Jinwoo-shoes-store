@@ -1,0 +1,6 @@
+@JinwooApi_HostAddress = http://localhost:5051
+
+GET {{JinwooApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
