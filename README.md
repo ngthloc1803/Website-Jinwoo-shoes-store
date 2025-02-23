@@ -76,10 +76,15 @@ Mở file .env hoặc src/config.js, cập nhật URL backend:
 
 
 Các công nghệ sử dụng:
+
   Backend: ASP.NET Core, Entity Framework Core, SQL Server
+  
   Frontend: Vue.js, Vue Router, Axios
+  
   Database: SQL Server
+  
   Authentication: JWT (JSON Web Token)  
 
 Nếu gặp lỗi CORS khi gọi API, hãy bật CORS trong Program.cs (backend).
+
 Nếu frontend không kết nối được API, hãy kiểm tra API_BASE_URL.
